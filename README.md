@@ -33,8 +33,7 @@ All functions return `Tween` / `gsap.timeline()`.
           zIndex  : 9999,
           position: "fixed"
           }).onComplete(() => this.appSpinner.nativeElement.remove())
-            .fadeRightToLeft(this.appHero.nativeElement);
-    
+            .fadeRightToLeft(this.appHero.nativeElement);  
       }
   }
   ```  
