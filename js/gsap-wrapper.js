@@ -4,7 +4,7 @@
  * This class bundles `gsap` methods together for fast use.
  * @author Tal Jacob
  */
-class GsapWrapper {
+export class GsapWrapper {
     constructor() {
         this.timeline = gsap.timeline();
     }
@@ -270,5 +270,3 @@ class GsapWrapper {
         return this;
     }
 }
-
-exports.GsapWrapper = GsapWrapper;

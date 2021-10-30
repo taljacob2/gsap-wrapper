@@ -24,7 +24,7 @@
   
   `main.js:`
   ```js
-  import {GsapWrapper} from "./gsap/gsap-wrapper.js";
-  let gsapWrapper = new gsapWrapper();
+  import {GsapWrapper} from "./gsap-wrapper.js";
+  let gsapWrapper = new GsapWrapper();
   gsapWrapper.fadeUp(".class-name"); // Example of use.
   ```
