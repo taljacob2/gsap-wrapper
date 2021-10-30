@@ -28,27 +28,37 @@ gsap.registerPlugin(CSSPlugin, ScrollTrigger);
  *    @code {
  *    import {GsapWrapper} from "./gsap/gsap-wrapper.js";
  *
- *    @ViewChild('appHero') appHero!: ElementRef;
+ *    export class AppComponent implements AfterViewInit {
  *
- *      ngAfterViewInit(): void {
- *          let gsapWrapper = new GsapWrapper();
- *          gsapWrapper.to(this.appSpinner.nativeElement, {
- *          duration: 2,
- *          zIndex  : 9999,
- *          position: "fixed"
- *          }).to(this.appSpinner.nativeElement, {
- *          duration: 1,
- *          opacity : 0,
- *          zIndex  : 9999,
- *          position: "fixed"
- *          }).onComplete(() => this.appSpinner.nativeElement.remove())
- *            .fadeRightToLeft(this.appHero.nativeElement);
- *      }
+ *      @ViewChild('appSpinner') appSpinner!: ElementRef;
+ *      @ViewChild('appHero') appHero!: ElementRef;
+ *
+ *        ngAfterViewInit(): void {
+ *            let gsapWrapper = new GsapWrapper();
+ *            gsapWrapper.to(this.appSpinner.nativeElement, {
+ *            duration: 2,
+ *            zIndex  : 9999,
+ *            position: "fixed"
+ *            }).to(this.appSpinner.nativeElement, {
+ *            duration: 1,
+ *            opacity : 0,
+ *            zIndex  : 9999,
+ *            position: "fixed"
+ *            }).onComplete(() => this.appSpinner.nativeElement.remove())
+ *              .fadeRightToLeft(this.appHero.nativeElement);
+ *        }
+ *    }
+ *    }
+ *
  * </p>
  *
  * <p>
  *    <tt>app.component.html</tt>
  *    @code{
+ *
+ *          <div #appSpinner>
+ *            <app-spinner></app-spinner>
+ *          </div>
  *          <div #appHero>
  *            <app-hero></app-hero>
  *          </div>
