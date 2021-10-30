@@ -9,8 +9,8 @@ All functions return `Tween` / `gsap.timeline()`.
 
 Requires:
  - https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js
- - https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollToPlugi
- - https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger
+ - https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollToPlugin.min.js
+ - https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js
  
      to be imported in the <tt>index.html</tt> beforehand.     
     *(For some reason, this CDN cannot be imported within `.js` files.)*
