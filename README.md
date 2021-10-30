@@ -4,7 +4,6 @@ This class bundles `gsap` methods together for fast use.
 > *NOTE:* the `selector` may be an `#id`, `.class`, `tag` as you wish.
 All functions return `Tween` / `gsap.timeline()`.
 
----
 
 - ## For NPM:
 
@@ -71,5 +70,3 @@ All functions return `Tween` / `gsap.timeline()`.
   
   GsapWrapper.fadeUp(".class-name"); // Example of use.
   ```
-  
----
