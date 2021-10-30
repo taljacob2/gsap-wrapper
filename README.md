@@ -1,7 +1,7 @@
 # GsapWrapper
 This class bundles `gsap` methods together for fast use.
 
-> *NOTE:* the `selector` may be an `#id`, `.class`, `tag` as you wish.
+> *NOTE:* The `selector` may be an `#id`, `.class`, `tag` as you wish.
 All functions return `GsapWrapper`, thus able to be chained.
 
 #### Supported:
