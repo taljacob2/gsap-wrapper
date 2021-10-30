@@ -3,6 +3,8 @@ This class bundles `gsap` methods together for fast use.
 
 > *NOTE:* the `selector` may be an `#id`, `.class`, `tag` as you wish.
 All functions return `Tween` / `gsap.timeline()`.
+---
+## For Native JS:
 
 Requires:
  - https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js
