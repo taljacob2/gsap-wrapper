@@ -7,3 +7,7 @@ All functions return `Tween` / `gsap.timeline()`.
 #### Supported:
 - [NPM](/ts)
 - [Native JS](/js)
+
+---
+
+> [Guide](https://greensock.com/3-migration/) for gsap 3. 
