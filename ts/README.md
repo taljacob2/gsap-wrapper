@@ -9,7 +9,7 @@ Requires `npm install gsap`
   
   `app.component.ts:`
   ```ts
-  import {GsapWrapper} from "./gsap/gsap-wrapper.js";
+  import {GsapWrapper} from "./gsap-wrapper.js";
   
   export class AppComponent implements AfterViewInit {
     
