@@ -13,9 +13,7 @@ export class GsapWrapper {
 
     private timeline!: gsap.core.Timeline;
 
-    /**
-     * Not required.
-     */
+    /** Not required. */
     private lastSelector!: any;
 
     constructor() {
